@@ -1,0 +1,20 @@
+{
+    "name": "david/design-patterns",
+    "description": "Exemplos didáticos dos 3 tipos de design-patterns.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SantosDavid",
+            "email": "daviddsantosd@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Behavioral\\": "src/behavioral",
+            "Creational\\": "src/creational",
+            "Structural\\": "src/structural"
+        }
+    },
+    "require": {}
+}
