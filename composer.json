@@ -16,5 +16,8 @@
             "Structural\\": "src/structural"
         }
     },
-    "require": {}
+    "require": {},
+    "require-dev" : {
+        "phpunit/phpunit": "7.2.6"
+    }
 }

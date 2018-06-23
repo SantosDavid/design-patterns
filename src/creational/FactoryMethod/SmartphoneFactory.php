@@ -15,7 +15,7 @@ class SmartphoneFactory implements Contract
         $class = Self::NAMESPACE . $smartphone;
 
         if (!class_exists($class)) {
-            return new Exception('Class not found');
+            throw new Exception('Class not found');
         }
 
         return new $class;
